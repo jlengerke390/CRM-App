@@ -12,7 +12,7 @@ class Record(models.Model):
     zipcode = models.CharField(max_length=20)
     
     def __str__(self):
-        return (f"{self.first_name} {self.last_name} - {self.email}")
+        return (f"{self.first_name} {self.last_name}")
     
     
     
